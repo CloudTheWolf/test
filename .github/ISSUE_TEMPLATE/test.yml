@@ -1,11 +1,12 @@
 name: Bug Report
 description: A bug has been found in OPFW
 labels: ["bug"]
+title: "[Bug]: "
 body:
   - type: markdown
     attributes:
       value: "Before opening a new issue, please search existing issues:  https://github.com/InZidiuZ/op-framework-issue-tracker/issues"
-  - type: checkboxes
+  - type: dropdown
     id: assurance
     attributes:
       label: Assurance
