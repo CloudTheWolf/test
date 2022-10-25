@@ -66,24 +66,24 @@ body:
     id: playerdata
     attributes:
       label: Player Data
-      description: Write /info whilst in-game and provide a screenshot of the information you are prompted.
+      description: Write '/info' whilst in-game and provide a screenshot of the information you are prompted.
     validations:
       required: false      
   - type: textarea
-      id: server
-      attributes:
-        label: Server
-        description: What server/community did this issue occur in?
-        options:
-        - label: OP-FW Test Server (c2s1.op-framework.com)
-        - label: International (c3s1.op-framework.com)
-        - label: Latin America (c4s1.op-framework.com)
-        - label: Italy (c5s1.op-framework.com)
-        - label: Poland (c6s1.op-framework.com)
-        - label: India (c8s1.op-framework.com)
-        - label: Bangladesh (c10s1.op-framework.com)
-        - label: Nepal (c13s1.op-framework.com)
-        - label: South Korea (c15s1.op-framework.com)
-        - label: Estonia (c16s1.op-framework.com)
-      validations:
-        required: true          
+    id: server
+    attributes:
+      label: Server
+      description: What server/community did this issue occur in?
+      options:
+      - label: OP-FW Test Server (c2s1.op-framework.com)
+      - label: International (c3s1.op-framework.com)
+      - label: Latin America (c4s1.op-framework.com)
+      - label: Italy (c5s1.op-framework.com)
+      - label: Poland (c6s1.op-framework.com)
+      - label: India (c8s1.op-framework.com)
+      - label: Bangladesh (c10s1.op-framework.com)
+      - label: Nepal (c13s1.op-framework.com)
+      - label: South Korea (c15s1.op-framework.com)
+      - label: Estonia (c16s1.op-framework.com)
+    validations:
+      required: true          
