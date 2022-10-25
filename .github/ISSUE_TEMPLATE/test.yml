@@ -56,7 +56,7 @@ body:
       description: Provide any screenshots and/or videos demonstrating the issue being experienced.
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: game
     attributes:
       label: Game Resolution
@@ -70,11 +70,12 @@ body:
       description: Write '/info' whilst in-game and provide a screenshot of the information you are prompted.
     validations:
       required: false      
-  - type: checkboxes
+  - type: dropdown
     id: server
     attributes:
       label: Server
       description: What server/community did this issue occur in?
+      multiple: true
       options:
       - label: OP-FW Test Server (c2s1.op-framework.com)
       - label: International (c3s1.op-framework.com)
