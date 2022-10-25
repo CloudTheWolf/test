@@ -13,8 +13,8 @@ body:
       description: Have you read through the rules from the `README.md` file in the root folder of this GitHub repository?
       options:
         - I have read the `README.md`
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: playerid
     attributes:
