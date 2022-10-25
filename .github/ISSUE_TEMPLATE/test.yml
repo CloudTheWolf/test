@@ -1,4 +1,4 @@
-name: OPFW Bug Report
+name: Bug Report
 description: A bug has been found in OPFW
 labels: ["bug"]
 body:
@@ -9,15 +9,16 @@ body:
     id: assurance
     attributes:
       label: Assurance
-      description: Provide a clear and concise description of what the problem is.
+      description: Have you read through the rules from the `README.md` file in the root folder of this GitHub repository?
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I have read the `README.md`
           required: true
   - type: input
     id: playerid
     attributes:
       label: Player Identification
       description: What is your steam profile?
+      placeholder: steam:123456789abcde
     validations:
       required: true          
   - type: textarea
